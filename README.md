@@ -45,4 +45,7 @@ The dataset contains medical insurance charges information for a particular pers
 This project highlights key factors affecting insurance costs and provides a regression model for predicting charges. The insights can help insurance companies in pricing strategies and customer risk assessment.
 
 ## Author  
+Tajwinder Singh
+
+## Linkedin
 Tajwinder (Taj) Singh
