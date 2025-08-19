@@ -55,25 +55,6 @@ The dataset contains medical insurance charges information for individuals, incl
 - Gender does not have a strong effect on charges  
 - BMI and number of children show moderate influence  
 
-## Repository Structure  
-medical_charges_prediction/
-│
-├── app.py # Flask app for deployment
-├── requirements.txt # Python dependencies
-├── Procfile # Gunicorn startup file
-├── .gitignore
-├── README.md
-├── dataset.csv # Original dataset
-├── ct_ohe.pickle # Preprocessing object
-├── minmax.pickle # Preprocessing object
-├── polyfeatures.pickle # Preprocessing object
-├── medical_charges_prediction.pickle # Trained model
-├── notebooks/
-│ └── model_training.ipynb # EDA & model building
-└── static/ # (Optional) static files for Flask
-└── templates/ # includes frontend html
-
-
 ## Deployment Instructions for Future Users  
 1. Clone the repository.  
 2. Install dependencies:  
