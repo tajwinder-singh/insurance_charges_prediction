@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("/static/background.jpg");
+    background-size: 1600px 900px;
+    /* Make it cover full screen */
+    background-position: top;
+    /* Center the image */
+    background-position: -140px -50px; /* shift X and Y to show specific detail */
+
+    background-repeat: no-repeat;
+    /* Prevent tiling */
+    font-family: Arial, sans-serif;
+    color: white;
+    font-weight: bolder;
+    color: rgb(14, 14, 22);
+
+    
+    /* Text color so it’s visible */
+
+}
+
+
+
+form {
+    text-align: center;
+}
+
+#d1 {
+    position: relative;
+    right: 22px;
+}
+
+#d2 {
+    position: relative;
+    right: 22px;
+}
+
+#d3 {
+    position: relative;
+    right: 21px;
+}
+
+#d4 {
+    position: relative;
+    right: 9px;
+}
+
+#d5 {
+    position: relative;
+    right: 12px;
+}
+
+#d6 {
+    position: relative;
+    right: 12px;
+}
+
+#age {
+    position: relative;
+    left: 26px;
+}
+
+#sex {
+    position: relative;
+    left: 27px;
+}
+
+#bmi {
+    position: relative;
+    left: 24px;
+}
+
+#smoker {
+    position: relative;
+    left: 6px;
+}
+
+#region {
+    position: relative;
+    left: 8px;
+}
+
+#d7 {
+    position: relative;
+    left: 10px;
+}
+
+#h1 {
+    text-align: center;
+    color: rgb(5, 26, 49);
+    
+}

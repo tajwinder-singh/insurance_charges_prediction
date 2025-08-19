@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Charges Prediction</title>
+    <link rel="stylesheet" href= "{{ url_for('static', filename='style.css') }}">
+</head>
+<body >
+    <header>
+    <h1 id="h1">Medical Charges Prediction</h1><br>
+
+    </header>
+
+    <main>
+    <form action="/predict" method="post">
+        <div id="d1"> Age: <input name="age" id="age" type="number" required></div><br><br><br>
+        <div id="d2"> Sex: <input name="sex" id= "sex" type="text" required placeholder="male/female"></div><br><br><br>
+        <div id="d3"> BMI: <input name="bmi" id="bmi" type="number" step="0.1" required></div><br><br><br>
+        <div id="d4"> Children: <input name="children" id="children" type="number" required></div><br><br><br>
+        <div id="d5"> Smoker: <input name="smoker" id="smoker" type="text" required placeholder="yes/no"></div><br><br><br>
+        <div id="d6"> Region: <input name="region" id="region" type="text" required placeholder="northeast/northwest/southeast/southwest"></div><br><br><br>
+        <div id="d7"> <input type="submit" value="Predict"></div>
+    </form>
+    </main>
+</body>
+</html>
+
