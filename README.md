@@ -55,6 +55,12 @@ The dataset contains medical insurance charges information for individuals, incl
 - Gender does not have a strong effect on charges  
 - BMI and number of children show moderate influence  
 
+### App link:
+http://medical-charges-env.eba-2eshmaxd.ap-south-1.elasticbeanstalk.com/
+
+### Dashboard:
+<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/3cd17203-1340-4a79-a10f-9c976bb5ba8c" />
+
 ## Deployment Instructions for Future Users  
 1. Clone the repository.  
 2. Install dependencies:  
