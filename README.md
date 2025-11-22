@@ -1,5 +1,11 @@
 # Insurance Charges Prediction Project
 
+---
+### Dashboard:
+<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/3cd17203-1340-4a79-a10f-9c976bb5ba8c" />
+
+----
+
 ## Overview  
 This project predicts medical insurance charges based on customer features such as age, BMI, smoking status, and region. It combines exploratory data analysis with predictive modeling and is deployed as a web application using Flask and AWS Elastic Beanstalk.
 
@@ -58,8 +64,6 @@ The dataset contains medical insurance charges information for individuals, incl
 ### App link:
 http://medical-charges-env.eba-2eshmaxd.ap-south-1.elasticbeanstalk.com/
 
-### Dashboard:
-<img width="1365" height="630" alt="image" src="https://github.com/user-attachments/assets/3cd17203-1340-4a79-a10f-9c976bb5ba8c" />
 
 ## Deployment Instructions for Future Users  
 1. Clone the repository.  
